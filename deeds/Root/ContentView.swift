@@ -13,9 +13,17 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Deeds!")
+            Image("IMG_2815").resizable().frame(width: 100, height: 100)
         }
         .padding()
+        HStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Deeds!")
+            Image("IMG_2815").resizable().frame(width: 100, height: 100)
+        }
     }
 }
 
